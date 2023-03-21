@@ -1,8 +1,8 @@
 'use strict';
 
 const sprintf = require('sprintf-js').sprintf;
-const LevelUtil = require('../bundle-example-lib/lib/LevelUtil');
-const { Broadcast: B, Config, Logger } = require('ranvier');
+const LevelUtil = require('../whispermud-lib/lib/LevelUtil');
+const { Broadcast: B, Config, Logger } = require('whispermud-core');
 
 module.exports = {
   listeners: {
